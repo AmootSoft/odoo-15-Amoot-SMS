@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem name="Amoot SMS"
+              id="sms_main_menu"
+              action="amoot_sms.action_amoot_sms_view"
+              sequence="-100"
+              web_icon="amoot_sms,static/description/icon.png"/>
+
+    <menuitem name="SMS Provider"
+              id="providers_menu"
+              parent="sms_main_menu"
+              action="amoot_sms.action_amoot_sms_view"/>
+
+    <menuitem name="Patterns"
+              id="sms_pattern_menu"
+              parent="sms_main_menu"
+              action="amoot_sms.action_sms_pattern_view"/>
+    <menuitem name="Pattern Settings"
+              id="sms_pattern_config_menu"
+              parent="sms_pattern_menu"
+              action="amoot_sms.action_sms_pattern_view"/>
+    <menuitem name="Pattern Parameters"
+              id="sms_pattern_parameters_menu"
+              parent="sms_pattern_menu"
+              action="amoot_sms.action_sms_pattern_parameter_view"/>
+</odoo>

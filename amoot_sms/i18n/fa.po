@@ -1,0 +1,272 @@
+# Translation of odoo Server.
+# This file contains the translation of the following modules:
+# 	* amoot_sms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-01 12:47+0000\n"
+"PO-Revision-Date: 2023-07-01 12:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__action
+msgid "Action"
+msgstr "عملیات"
+
+#. module: amoot_sms
+#: model_terms:ir.actions.act_window,help:amoot_sms.action_sms_pattern_parameter_view
+msgid "Add some pattern parameters first."
+msgstr "ابتدا تعدادی پارامتر الگوی پیامک را اضافه کنید"
+
+#. module: amoot_sms
+#: model:ir.model.fields.selection,name:amoot_sms.selection__amoot_sms__provider__amoot_sms
+msgid "Amoot SMS"
+msgstr "پیامک آموت"
+
+#. module: amoot_sms
+#: model_terms:ir.actions.act_window,help:amoot_sms.action_sms_pattern_view
+msgid "Config your sms patterns."
+msgstr "الگوهای پیامک خود را تنظیم کنید"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__create_uid
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__create_uid
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__create_date
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__create_date
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__create_date
+msgid "Created on"
+msgstr "ایجاد شده در"
+
+#. module: amoot_sms
+#: model_terms:ir.actions.act_window,help:amoot_sms.action_amoot_sms_view
+msgid "Creating an SMS Provider for starting is necessary."
+msgstr "ایجاد یک ارائه دهنده پیامک برای شروع ضروری است."
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__is_default
+msgid "Default"
+msgstr "پیش فرض"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__display_name
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__display_name
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__display_name
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__field_name
+msgid "Field name"
+msgstr "نام فیلد"
+
+#. module: amoot_sms
+#: model:res.groups,name:amoot_sms.group_amoot_sms_full_access
+msgid "Full access"
+msgstr "دسترسی کامل"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__id
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__id
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__id
+msgid "ID"
+msgstr "شناسه کاربری"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern____last_update
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter____last_update
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms____last_update
+msgid "Last Modified on"
+msgstr "آخرین تغییر در"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__write_uid
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__write_uid
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__write_date
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__write_date
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__model_name
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__model_name
+msgid "Model name"
+msgstr "نام مدل"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern_parameter__parameter_name
+msgid "Parameter name"
+msgstr "نام پارامتر انتخابی"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__parameter
+msgid "Parameters"
+msgstr "پارامترها"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__password
+msgid "Password"
+msgstr "رمز عبور"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__pattern_name
+msgid "Pattern Name"
+msgstr "نام الگو پیامک"
+
+#. module: amoot_sms
+#: model:ir.actions.act_window,name:amoot_sms.action_sms_pattern_parameter_view
+msgid "Pattern Parameters"
+msgstr "پارامترهای الگوی پیامک"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__pattern_code
+msgid "Pattern code"
+msgstr "کد الگوی متنی"
+
+#. module: amoot_sms
+#: model:ir.actions.act_window,name:amoot_sms.action_sms_pattern_view
+msgid "Patterns"
+msgstr "الگوهای پیامک"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__provider
+msgid "Provider"
+msgstr "ارائه دهنده"
+
+#. module: amoot_sms
+#: model:res.groups,name:amoot_sms.group_amoot_sms_read_only
+msgid "Read only"
+msgstr "فقط خواندنی"
+
+#. module: amoot_sms
+#: model:res.groups,name:amoot_sms.group_amoot_sms_read_write
+msgid "Read-Write"
+msgstr "خواندن-نوشتن"
+
+#. module: amoot_sms
+#: model:ir.actions.act_window,name:amoot_sms.action_amoot_sms_view
+#: model:ir.model.fields,field_description:amoot_sms.field_sms_pattern__provider
+msgid "SMS Provider"
+msgstr "ارائه دهنده سرویس پیامک"
+
+#. module: amoot_sms
+#: model_terms:ir.ui.view,arch_db:amoot_sms.amoot_sms_res_config_settings_view_form
+msgid "SMS Service"
+msgstr "سرویس پیامک"
+
+#. module: amoot_sms
+#: model:ir.module.category,name:amoot_sms.module_category_amoot_sms_users
+msgid "SMS Service Users"
+msgstr "کاربران سرویس پیامکی"
+
+#. module: amoot_sms
+#: model:ir.module.category,description:amoot_sms.module_category_amoot_sms_users
+msgid "SMS Service Users Category"
+msgstr "دسته بندی کاربران سرویس پیامکی"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__title
+msgid "Title"
+msgstr "عنوان"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__username
+msgid "Username"
+msgstr "نام کاربری"
+
+#. module: amoot_sms
+#: model:ir.model.fields,help:amoot_sms.field_sms_pattern__parameter
+msgid "choose pattern parameters in order."
+msgstr "پارامترهای الگوی پیامک را به ترتیب انتخاب کنید."
+
+#. module: amoot_sms
+#: model:ir.model.fields.selection,name:amoot_sms.selection__sms_pattern__action__on_create
+msgid "create"
+msgstr "جدید"
+
+#. module: amoot_sms
+#: model:ir.model.fields.selection,name:amoot_sms.selection__sms_pattern__action__on_delete
+msgid "delete"
+msgstr "حذف"
+
+#. module: amoot_sms
+#: model_terms:ir.ui.view,arch_db:amoot_sms.amoot_sms_form
+msgid "e.g. meeting reminder"
+msgstr "به عنوان مثال یادآوری جلسه"
+
+#. module: amoot_sms
+#: model_terms:ir.ui.view,arch_db:amoot_sms.amoot_sms_res_config_settings_view_form
+msgid "information1"
+msgstr "اطلاعات سرویس پیامکی خود را وارد کنید."
+
+#. module: amoot_sms
+#: model_terms:ir.ui.view,arch_db:amoot_sms.amoot_sms_res_config_settings_view_form
+msgid "information2"
+msgstr "برای ارسال پیام های خودکار، الگوی پیامکی خود را تعریف کنید."
+
+#. module: amoot_sms
+#: model_terms:ir.ui.view,arch_db:amoot_sms.amoot_sms_res_config_settings_view_form
+msgid "information3"
+msgstr "برای الگوهای پیامک خود، پارامتر تعریف کنید."
+
+#. module: amoot_sms
+#: model:ir.model.fields.selection,name:amoot_sms.selection__sms_pattern__action__on_modify
+msgid "modify"
+msgstr "تغییر"
+
+#. module: amoot_sms
+#: model_terms:ir.ui.view,arch_db:amoot_sms.amoot_sms_res_config_settings_view_form
+msgid "pattern parameters"
+msgstr "پارامترهای الگوی پیامک"
+
+#. module: amoot_sms
+#: model_terms:ir.ui.view,arch_db:amoot_sms.amoot_sms_res_config_settings_view_form
+msgid "patterns"
+msgstr "الگوهای پیامک"
+
+#. module: amoot_sms
+#: model:ir.model.fields,field_description:amoot_sms.field_amoot_sms__line_no
+msgid "private line number or (public) or (service)"
+msgstr "شماره خط خصوصی یا (public) یا (service)"
+
+#. module: amoot_sms
+#: model:ir.model,name:amoot_sms.model_amoot_sms
+msgid "sms provider configuration"
+msgstr "پیکربندی ارائه دهنده سرویس پیامک"
+
+#. module: amoot_sms
+#: model_terms:ir.ui.view,arch_db:amoot_sms.amoot_sms_res_config_settings_view_form
+msgid "sms providers"
+msgstr "ارائه دهندگان سرویس پیامکی"
+
+#. module: amoot_sms
+#: model:ir.model,name:amoot_sms.model_sms_pattern
+msgid "sms.pattern"
+msgstr "sms pattern"
+
+#. module: amoot_sms
+#: model:ir.model,name:amoot_sms.model_sms_pattern_parameter
+msgid "sms.pattern.parameter"
+msgstr "sms pattern parameter"
+
+#. module: amoot_sms
+#: model:ir.model.fields,help:amoot_sms.field_amoot_sms__line_no
+msgid "style: 09XXXXXXXXX (length = 11)"
+msgstr "سبک: 09XXXXXXXXX (طول = 11)"

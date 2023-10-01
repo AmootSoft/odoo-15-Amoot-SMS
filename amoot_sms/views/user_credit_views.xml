@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="amoot_sms_view_tree_inherit" model="ir.ui.view">
+        <field name="name">amoot_sms.sms.view.tree.inherit</field>
+        <field name="model">amoot.sms</field>
+        <field name="inherit_id" ref="amoot_sms.amoot_sms_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="js_class">amoot_sms_user_credit_tree</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

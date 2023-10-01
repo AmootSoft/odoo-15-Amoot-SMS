@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-name="UserSmsCreditItem.user_credit_button">
+        <div id="o_button_sms_user_credit" class="border ml-1 mr-3 p-2 "
+             style="align-items: center; text-align: center; min-width: 100px; height: 30px; border-radius: 5px; font-size: 1.1rem;">
+        </div>
+    </t>
+
+    <t t-extend="ListView.buttons" t-name="UserSmsCreditItemListView.buttons">
+        <t t-jquery="button.o_list_button_add" t-operation="after">
+            <t t-call="UserSmsCreditItem.user_credit_button"/>
+        </t>
+    </t>
+
+</templates>

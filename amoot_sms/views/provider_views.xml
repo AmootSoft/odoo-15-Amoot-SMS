@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_amoot_sms_view" model="ir.actions.act_window">
+        <field name="name">SMS Provider</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">amoot.sms</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Creating an SMS Provider for starting is necessary.
+            </p>
+        </field>
+    </record>
+
+    <record id="amoot_sms_tree" model="ir.ui.view">
+        <field name="name">amoot.sms.tree</field>
+        <field name="model">amoot.sms</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="title"/>
+                <field name="provider"/>
+                <field name="line_no"/>
+                <field name="username"/>
+                <field name="password" password="true"/>
+                <field name="is_default"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="amoot_sms_form" model="ir.ui.view">
+        <field name="name">amoot.sms.form</field>
+        <field name="model">amoot.sms</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="title" placeholder="e.g. meeting reminder"/>
+                    </group>
+                    <group>
+                        <field name="provider"/>
+                        <field name="username"/>
+                        <field name="password" password="true"/>
+                    </group>
+                    <group>
+                        <field name="line_no"/>
+                        <field name="is_default"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
