@@ -64,7 +64,7 @@ def iap_jsonrpc(url, method='call', params=None, timeout=15,auto=None):
                     'Mobile': int: number,
                     'MessageID': int: 
                     'Status': string: status
-                    'res_id': string: owj user
+                    'res_id': string: odoo user
                 } 
             }
         """
@@ -128,7 +128,7 @@ class SmsApi(models.AbstractModel):
     @api.model
     def _send_sms_batch(self, messages, pattern=None, auto=None):
         """ Send SMS using IAP in batch mode
-        :return: return of /iap/sms/1/send controller which is a list of dict [{
+        :return: return controller which is a list of dict [{
             'res_id': integer: ID of sms.sms,
             'Status':  string: 'insufficient_credit' or 'wrong_number_format' or 'success',
             'credit': integer: number of credits spent to send this SMS,
